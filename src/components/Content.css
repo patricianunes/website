@@ -1,0 +1,32 @@
+.content {
+  padding: 40px;
+  background-color: #fff;
+  margin: -60px 24px 24px;
+  border-radius: 4px;
+  height: calc(100vh - 173px);
+}
+
+.readMore {
+  display: block;
+  text-align: center;
+  margin-top: 48px;
+}
+
+.title {
+  font-size: 32px;
+  margin: 0;
+}
+
+.content p {
+  line-height: 1.5;
+}
+
+.content a {
+  color: #ce40b4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}

@@ -1,11 +1,12 @@
 import React from "react";
+
+import "./Content.css";
 import DownArrow from "../images/down-arrow.png";
 
-const About = () => (
-  <section className="About">
+const Content = () => (
+  <section className="content">
     <div>
-      <h1>Hi,</h1>
-      <h1>I'm Patricia Nunes</h1>
+      <h1 className="title">Hi, I'm Patricia Nunes</h1>
       <p>Junior Web Development, based in Sydney, seeking for my first job.</p>
       <p>
         I just finished the ​Software Engineering Immersive course at GA. Now I
@@ -20,11 +21,11 @@ const About = () => (
         Check out <a href="#">my work</a> and feel free to{" "}
         <a href="#">get in touch</a>.
       </p>
-      <a href="#">
+      <a href="#" className="readMore">
         <img src={DownArrow} alt="My work" />
       </a>
     </div>
   </section>
 );
 
-export default About;
+export default Content;
