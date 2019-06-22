@@ -4,7 +4,7 @@ import "./Skills.css";
 
 const Skills = () => (
   <section className="skills">
-    <h1 className="title">Skills</h1>
+    <h1 className="skills__title ">Skills</h1>
     <p>
       The graphic show how much I work with some technologies during my journey
       until today.

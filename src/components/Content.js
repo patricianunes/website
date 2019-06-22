@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./Content.css";
-import DownArrow from "../images/down-arrow.png";
 
 const Content = () => (
   <section className="content">
@@ -22,7 +21,7 @@ const Content = () => (
         <a href="#">get in touch</a>.
       </p>
       <p>Download my resume!</p>
-      <a href="./cv.pdf" download>
+      <a href="/cv.pdf" download>
         <i className="fas fa-file-download" />
       </a>
       <a href="#" className="readMore">
