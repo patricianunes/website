@@ -1,0 +1,23 @@
+.skills {
+  padding: 40px;
+  background-color: #fff;
+  margin: -60px 24px 24px;
+  border-radius: 4px;
+  height: 100vh;
+}
+
+.title {
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+  padding: 40px;
+}
+
+.skills p {
+  line-height: 1.5;
+}
+
+.graphic {
+  text-align: center;
+  padding: 64px;
+}
