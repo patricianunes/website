@@ -20,13 +20,6 @@ const Content = () => (
         Check out <a href="#">my work</a> and feel free to{" "}
         <a href="#">get in touch</a>.
       </p>
-      <p>Download my resume!</p>
-      <a href="/cv.pdf" download>
-        <i className="fas fa-file-download" />
-      </a>
-      <a href="#" className="readMore">
-        <i className="fas fa-chevron-down" />
-      </a>
     </div>
   </section>
 );

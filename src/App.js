@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Content from "./components/Content";
 import MyWork from "./components/MyWork";
 import Skill from "./components/Skills";
+import GetInTouch from "./components/GetInTouch";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Content />
       <MyWork />
       <Skill />
+      <GetInTouch />
     </div>
   );
 }

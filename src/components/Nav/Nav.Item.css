@@ -19,3 +19,14 @@
 .fab:hover {
   color: rgba(255, 255, 255, 1);
 }
+
+.fas {
+  font-size: 28px;
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.3s color ease-in-out;
+  padding: 0 12px;
+}
+
+.fas:hover {
+  color: rgba(255, 255, 255, 1);
+}
