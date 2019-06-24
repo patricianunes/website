@@ -13,16 +13,26 @@ const CardItem = props => {
             <img src={image} alt={name} />
           </a>
           <div className="card__text">
+            <h3>{name}</h3>
             <p>{description}</p>
             <a className="card__link" href={github}>
               <i className="fab fa-github" style={{ color: "#444444" }} />{" "}
               {github}
+            </a>
+            <br />
+            <a className="card__link" href={value}>
+              <i
+                className="fas fa-window-restore"
+                style={{ color: "#444444" }}
+              />{" "}
+              {value}
             </a>
           </div>
         </div>
       ) : (
         <div className="card">
           <div className="card__text">
+            <h3>{name}</h3>
             <p>{description}</p>
             <a className="card__link" href={github}>
               <i className="fab fa-github" style={{ color: "#444444" }} />{" "}
