@@ -1,4 +1,6 @@
 .content {
+  display: grid;
+  grid-template-columns: 80% 20%;
   padding: 40px;
   background-color: #fff;
   margin: -60px 24px 24px;

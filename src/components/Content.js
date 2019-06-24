@@ -3,7 +3,7 @@ import React from "react";
 import "./Content.css";
 
 const Content = () => (
-  <section className="content">
+  <section className="content" id="home">
     <div>
       <h1 className="title">Hi, I'm Patricia Nunes</h1>
       <p>Junior Web Development, based in Sydney, seeking for my first job.</p>

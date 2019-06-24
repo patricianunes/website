@@ -5,13 +5,15 @@ import Nav from "./Nav/Nav";
 import Form from "./Form";
 
 const GetInTouch = () => (
-  <div className="getintouch">
-    <h1 className="getintouch__title">Get In Touch</h1>
-    <div className="social">
-      <Nav />
+  <section className="getInTouch" id="get-in-touch">
+    <div>
+      <h1 className="getInTouch__title">Get In Touch</h1>
+      <div className="social">
+        <Nav />
+      </div>
+      <Form />
     </div>
-    <Form />
-  </div>
+  </section>
 );
 
 export default GetInTouch;

@@ -1,20 +1,40 @@
 .card {
+  height: 100%;
   display: grid;
   align-items: center;
   list-style-type: none;
-  margin: 20px;
-  padding: 20px;
   background-color: white;
-  box-shadow: 0 8px 6px -6px #e8e8e8;
+  box-shadow: 0 4px 8px 0 #e8e8e8;
+  transition: 0.3s;
   border-radius: 5px;
 }
 
+.card:hover {
+  box-shadow: 0 8px 16px 0 #e8e8e8;
+}
+
+.card__text {
+  padding: 0 20px 20px;
+}
+
 .card__link {
+  display: flex;
+  align-items: center;
   color: #444444;
   font-weight: bold;
   text-decoration: none;
 }
 
+.card__link .fab {
+  margin-right: 8px;
+}
+
 .card__link:hover {
-  text-decoration: underline;
+}
+
+img {
+  display: none;
+  max-width: 100%;
+  margin: 0 auto;
+  border-radius: 5px 5px 0 0;
 }

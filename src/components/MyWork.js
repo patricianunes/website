@@ -5,9 +5,11 @@ import Title from "./Cards/Title";
 import Card from "./Cards/Card";
 
 const MyWork = () => (
-  <section className="mywork">
+  <section className="myWork" id="my-work">
     <Title />
-    <Card />
+    <div>
+      <Card />
+    </div>
   </section>
 );
 

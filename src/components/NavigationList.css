@@ -1,0 +1,42 @@
+.navigationList {
+  position: fixed;
+  right: 36px;
+  top: 81px;
+}
+
+.navigationList ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.li_item {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ce40b4;
+  text-align: center;
+  line-height: 2em;
+  border-radius: 50%;
+  margin-bottom: 6px;
+}
+
+.li_item .fas {
+  font-size: 16px;
+  color: #444;
+}
+
+.active {
+  background: #ce40b4;
+}
+.active .fas {
+  color: #fff;
+}
+
+.navigation__item {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}

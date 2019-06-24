@@ -6,8 +6,11 @@ import Content from "./components/Content";
 import MyWork from "./components/MyWork";
 import Skill from "./components/Skills";
 import GetInTouch from "./components/GetInTouch";
+import NavigationList from "./components/NavigationList";
 
-function App() {
+const App = () => {
+  window.location.hash = "#header";
+
   return (
     <div className="app">
       <Header />
@@ -15,8 +18,9 @@ function App() {
       <MyWork />
       <Skill />
       <GetInTouch />
+      <NavigationList />
     </div>
   );
-}
+};
 
 export default App;

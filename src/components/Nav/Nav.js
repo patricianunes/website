@@ -7,7 +7,7 @@ const items = [
   { name: "Twitter", value: "https://twitter.com/Paticnunes" },
   {
     name: "LinkedIn",
-    value: "https://www.linkedin.com/in/patricia-nunes-12a60516b/"
+    value: "https://www.linkedin.com/in/patriciacnunes/"
   },
   { name: "GitHub", value: "https://github.com/patricianunes" },
   { name: "👩🏻‍💻" }

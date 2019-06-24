@@ -12,7 +12,7 @@ const items = [
       "My first ever project was this 😼 vs 🐶 tic-tac-toe game. I wrote it as an assignment and had it reviewed by @cironunesdev",
     github: "https://github.com/patricianunes/TicTacToe",
     value: "https://patricianunes.github.io/TicTacToe/",
-    image: { TicTacToe }
+    image: TicTacToe
   },
   {
     name: "website",
@@ -26,12 +26,12 @@ const items = [
       "Ruby on Rails CRUD app with authentication deployed to Heroku. For the styles I used Bootstrap 4.",
     github: "https://github.com/patricianunes/bjjking",
     value: "https://bjjking.herokuapp.com/",
-    image: { BjjKing }
+    image: BjjKing
   }
 ];
 
 const Card = () => (
-  <ul>
+  <ul className="grid">
     {items.map(item => (
       <CardItem {...item} />
     ))}
