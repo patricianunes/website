@@ -17,8 +17,8 @@ const Content = () => (
         as much as it does about the technology.
       </p>
       <p>
-        Check out <a href="#">my work</a> and feel free to{" "}
-        <a href="#">get in touch</a>.
+        Check out <a href="#my-work">my work</a> and feel free to{" "}
+        <a href="#get-in-touch">get in touch</a>.
       </p>
     </div>
   </section>
