@@ -13,7 +13,7 @@ const items = [
 
 const NavigationList = () => {
   React.useEffect(() => {
-    let timeoutId;
+    //let timeoutId;
 
     const onScroll = window.addEventListener(
       "scroll",

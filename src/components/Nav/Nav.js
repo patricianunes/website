@@ -16,7 +16,7 @@ const items = [
 const Nav = () => (
   <ul className="nav">
     <li>
-      <a href="/cv.pdf" download>
+      <a href="/website/cv.pdf" download>
         <i className="fas fa-file-download" />
       </a>
     </li>
