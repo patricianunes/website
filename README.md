@@ -1,68 +1,75 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# My Personal Website
+[My Website](https://patricianunes.github.io/website/#header)
 
-## Available Scripts
 
-In the project directory, you can run:
+Overview
+---
 
-### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Welcome to my Personal Website
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+This is a site to show my work, help me to find a job and after I get my first challenging as a Junior Software Developer I will start to post my articles and transfor my Personal Website in a blog post.
 
-### `npm test`
+The objective of the project was to use all the technologies and knowledge that I have learned to show a litle bit about me and my work.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I wrote the project with **React, HTML, CSS**. 
 
-### `npm run build`
+First my beloved husband help me with the design (he is a senior web developer), then I start with each component showing the content and using CSS to make everything mach with the design.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+After doing the basics I try to improve my code and make looks better, but I have a lot to make to improve my code and finish what I really want like some animations with JS!
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+I really wanted to make my project the most simply possible, easy to read and understandable.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Still need some good thinks like, integration with GitHub, tags with the tecnologies, animation on my skills image, but everything could be better and better.
 
-### `npm run eject`
+Do you want to have a look? [My Website](https://patricianunes.github.io/website/#header)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<!-- ###Necessary Deliverables
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+A working game, built by you, hosted somewhere on the internet
+A link to your hosted working game in the URL section of your Github repo
+A git repository hosted on Github, with a link to your hosted game, and frequent commits dating back to the very beginning of the project
+A readme.md file with explanations of the technologies used, the approach taken, installation instructions, unsolved problems, etc.
+##Emphasis
+*Italic*, **Bold**, ***Both***
 
-## Learn More
+Alternatively: _italic_, __bold__, ___superfancy___
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##Starred lists
+* List 1
+* List 2
+* List 3
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+##Dashed lists
+- Dashes
+- Work
+- Too
 
-### Code Splitting
+## Addition Lists
++ Plus
++ Also
++ Works
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Nubered lists
 
-### Analyzing the Bundle Size
+1. first
+1. second
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+links work like this: [text for the link] (http://w3c.org/)
 
-### Making a Progressive Web App
+## Images
+![Bill Murray](http://fillmarray.com/400/700)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+## Code: backtick city
+Refere to a variable like `counter` in special font.
 
-### Advanced Configuration
+```
+const hello = function() {
+  console.log('hello');
+}
+``` -->
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
