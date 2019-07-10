@@ -3,7 +3,15 @@ import React from "react";
 import "./Card.Item.css";
 
 const CardItem = props => {
-  const { name, description, image, github, value } = props;
+  const {
+    name,
+    description,
+    image,
+    github,
+    value,
+    linkGitHub,
+    linkValue
+  } = props;
 
   return (
     <li className="grid__item">
@@ -16,16 +24,15 @@ const CardItem = props => {
             <h3>{name}</h3>
             <p>{description}</p>
             <a className="card__link" href={github}>
-              <i className="fab fa-github" style={{ color: "#444444" }} />{" "}
-              {github}
+              <i className="fab fa-github" style={{ color: "#444444" }} />
+              {linkGitHub}
             </a>
-            <br />
             <a className="card__link" href={value}>
               <i
-                className="fas fa-window-restore"
+                className="fas fa-window-restore siteIcon"
                 style={{ color: "#444444" }}
-              />{" "}
-              {value}
+              />
+              {linkValue}
             </a>
           </div>
         </div>
@@ -35,8 +42,8 @@ const CardItem = props => {
             <h3>{name}</h3>
             <p>{description}</p>
             <a className="card__link" href={github}>
-              <i className="fab fa-github" style={{ color: "#444444" }} />{" "}
-              {github}
+              <i className="fab fa-github" style={{ color: "#444444" }} />
+              {linkGitHub}
             </a>
           </div>
         </div>

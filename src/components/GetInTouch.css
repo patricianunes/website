@@ -1,21 +1,19 @@
 .getInTouch {
-  text-align: left;
+  text-align: center;
   padding: 40px;
   background-color: #d458bd;
   height: calc(100vh);
 }
 
 .getInTouch__title {
-  padding: 40px 40px 40px 20px;
+  padding: 40px 40px 12px;
   color: white;
   font-size: 32px;
   margin: 0;
-  text-align: left;
 }
 
 .social {
-  text-align: left;
-
-  width: 50%;
+  display: inline-block;
   padding: 10px;
+  margin: 0 auto 24px;
 }

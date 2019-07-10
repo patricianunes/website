@@ -10,16 +10,19 @@ const items = [
   {
     name: "TicTacToe",
     description:
-      "My first ever project was this 😼 vs 🐶 tic-tac-toe game. Using JavaScrip, HTML and CSS. I wrote it as an assignment and had it reviewed by @cironunesdev",
+      "My first ever project was this 😼 vs 🐶 tic-tac-toe game. Using JavaScrip, HTML and CSS. I wrote it as an assignment and had it reviewed by @cironunesdev.",
     github: "https://github.com/patricianunes/TicTacToe",
     value: "https://patricianunes.github.io/TicTacToe/",
-    image: TicTacToe
+    image: TicTacToe,
+    linkGitHub: "patricianunes/TicTacToe",
+    linkValue: "patricianunes.github.io/TicTacToe/"
   },
   {
     name: "My Website",
     description:
-      "This very website was programmed by me as an exercise to practice JavaScript and React.",
-    github: "https://github.com/patricianunes/website"
+      "This very website was programmed by me as an exercise to practice JavaScript, React, HTML, CSS and Trevis.",
+    github: "https://github.com/patricianunes/website",
+    linkGitHub: "patricianunes/website"
   },
   {
     name: "Bjj King app",
@@ -27,15 +30,19 @@ const items = [
       "Ruby on Rails CRUD app with authentication deployed to Heroku. For the styles I used Bootstrap 4.",
     github: "https://github.com/patricianunes/bjjking",
     value: "https://bjjking.herokuapp.com/",
-    image: BjjKing
+    image: BjjKing,
+    linkGitHub: "patricianunes/bjjking",
+    linkValue: "bjjking.herokuapp.com/"
   },
   {
     name: "Super Chrome Extension",
     description:
-      "Chrome extension multi-apps, with React and CSS. Similar at the cellphone menu that can have many apps that help us in our routing.",
+      "Chrome extension multi-apps, with React. Similar at the cellphone menu that can have many apps that help us in our routing.",
     github: "https://github.com/patricianunes/super-chrome-extension",
     value: "https://patricianunes.github.io/super-chrome-extension/",
-    image: ChromeExtension
+    image: ChromeExtension,
+    linkValue: "patricianunes.github.io/super-chrome-extension/",
+    linkGitHub: "patricianunes/super-chrome-extension"
   }
 ];
 

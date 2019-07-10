@@ -9,7 +9,7 @@ const GetInTouch = () => (
     <div>
       <h1 className="getInTouch__title">Get In Touch</h1>
       <div className="social">
-        <Nav />
+        <Nav hideGirl />
       </div>
       <Form />
     </div>

@@ -13,7 +13,7 @@ const Form = () => (
       placeholder="Message:"
       size="140"
     />
-    <input type="submit" value="send" placeholder="Send" />
+    <button class="btn">send</button>
   </form>
 );
 

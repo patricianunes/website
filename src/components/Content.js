@@ -6,7 +6,7 @@ const Content = () => (
   <section className="content" id="home">
     <div>
       <h1 className="title">Hi, I'm Patricia Nunes</h1>
-      <p>Junior Web Development, based in Sydney, seeking for my first job.</p>
+      <p>Junior Web Developer, based in Sydney, seeking for my first job.</p>
       <p>
         I just finished the ​Software Engineering Immersive course at GA. Now I
         am looking for a junior position preferable as a ​Frontend​, but I am
