@@ -3,6 +3,7 @@ import React from "react";
 import "./Card.css";
 import TicTacToe from "./tictactoe.png";
 import BjjKing from "./bjjking.png";
+import ChromeExtension from "./ce.png";
 import CardItem from "./Card.Item";
 
 const items = [
@@ -34,7 +35,7 @@ const items = [
       "Chrome extension multi-apps, with React and CSS. Similar at the cellphone menu that can have many apps that help us in our routing.",
     github: "https://github.com/patricianunes/super-chrome-extension",
     value: "https://patricianunes.github.io/super-chrome-extension/",
-    image: BjjKing
+    image: ChromeExtension
   }
 ];
 

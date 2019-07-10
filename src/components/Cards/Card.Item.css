@@ -29,12 +29,10 @@
   margin-right: 8px;
 }
 
-.card__link:hover {
-}
-
 img {
-  display: none;
+  display: -webkit-box;
   max-width: 100%;
+  max-height: 160px;
   margin: 0 auto;
   border-radius: 5px 5px 0 0;
 }
