@@ -12,6 +12,7 @@
 .skills p {
   text-align: center;
   line-height: 1.5;
+  padding: 24px 60px;
 }
 
 .skills__chart {
