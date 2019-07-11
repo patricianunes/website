@@ -40,3 +40,20 @@
   justify-content: center;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 480px) {
+  .navigationList {
+    right: 24px;
+    top: 85px;
+  }
+
+  .li_item,
+  .navigation__item {
+    width: 24px;
+    height: 24px;
+  }
+
+  .li_item .fas {
+    font-size: 12px;
+  }
+}

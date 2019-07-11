@@ -1,7 +1,5 @@
 .content {
-  display: grid;
-  grid-template-columns: 80% 20%;
-  padding: 40px;
+  padding: 40px 58px 40px 40px;
   background-color: #fff;
   margin: -60px 24px 24px;
   border-radius: 4px;
@@ -17,6 +15,7 @@
 .title {
   font-size: 32px;
   margin: 0;
+  letter-spacing: -1.8px;
 }
 
 .content p {
@@ -31,4 +30,11 @@
 
 .content a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+  .content {
+    margin: -60px 12px 24px;
+    padding: 40px 50px 40px 40px;
+  }
 }

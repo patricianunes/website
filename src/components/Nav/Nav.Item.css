@@ -30,3 +30,16 @@
 .fas:hover {
   color: rgba(255, 255, 255, 1);
 }
+
+@media only screen and (max-width: 480px) {
+  .girl {
+    visibility: hidden;
+    font-size: 0;
+    height: 96px;
+  }
+
+  .fab,
+  .fas {
+    font-size: 18px;
+  }
+}

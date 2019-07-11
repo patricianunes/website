@@ -5,7 +5,7 @@ import "./Skills.css";
 const Skills = () => (
   <section className="skills" id="skills">
     <div>
-      <h1 className="skills__title ">Skills</h1>
+      <h1 className="title skills__title ">Skills</h1>
       <p>
         This shows how much experience I had working with the different Frontend
         and Backend technologies.

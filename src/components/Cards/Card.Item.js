@@ -18,7 +18,9 @@ const CardItem = props => {
       {value && image ? (
         <div className="card">
           <a href={value}>
-            <img src={image} alt={name} />
+            <div class="card__img-container">
+              <img className="card__img" src={image} alt={name} />
+            </div>
           </a>
           <div className="card__text">
             <h3>{name}</h3>
