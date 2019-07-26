@@ -32,6 +32,11 @@
   text-decoration: underline;
 }
 
+.arrow {
+  text-align: center;
+  padding-top: 50%;
+}
+
 @media only screen and (max-width: 480px) {
   .content {
     margin: -60px 12px 24px;
